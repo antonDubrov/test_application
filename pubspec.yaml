@@ -1,0 +1,28 @@
+name: test_application
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  image_picker: ^0.8.7+4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  solid_lints: ^0.0.14
+
+flutter:
+  uses-material-design: true
